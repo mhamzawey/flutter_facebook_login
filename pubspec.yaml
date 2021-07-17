@@ -4,6 +4,9 @@ version: 3.0.0
 author: Iiro Krankka <iiro.krankka@gmail.com>
 homepage: https://github.com/roughike/flutter_facebook_login
 
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
 dependencies:
   flutter:
     sdk: flutter
@@ -17,6 +20,3 @@ flutter:
   plugin:
     androidPackage: com.roughike.facebooklogin.facebooklogin
     pluginClass: FacebookLoginPlugin
-
-environment:
-  sdk: ">=2.0.0-dev.28.0 <3.0.0"
