@@ -108,7 +108,7 @@ class FacebookLogin {
         await (channel.invokeMethod('logIn', {
       'behavior': _currentLoginBehaviorAsString(),
       'permissions': permissions,
-    }) as FutureOr<Map<dynamic, dynamic>>);
+    }));
 
     return _deliverResult(
         FacebookLoginResult._(result.cast<String, dynamic>()));
