@@ -8,18 +8,18 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
 A Flutter plugin for allowing users to authenticate with native Android &amp; iOS Facebook login SDKs.
                        DESC
-  s.homepage         = 'http://example.com'
+  s.homepage         = 'http://hotdesk.io'
   s.license          = { :file => '../LICENSE' }
-  s.author           = { 'Your Company' => 'email@example.com' }
+  s.author           = { 'Hotdesk' => 'hamza@hotdesk-app.com' }
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'
-  s.dependency 'FBSDKCoreKit', '~> 9.1.0'
-  s.dependency 'FBSDKLoginKit', '~> 9.1.0'
+  s.dependency 'FBSDKCoreKit', '~> 11.2.1'
+  s.dependency 'FBSDKLoginKit', '~> 11.2.1'
 
   # https://github.com/flutter/flutter/issues/14161
   s.static_framework = true
   
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '10.0'
 end
